@@ -1,0 +1,14 @@
+ # Settings File for Ebeam Simulator
+ Ebeam_Energy       80e3
+ DumpFile           FBMC_beam.lammpstrj
+ Coordinates        ws2slab_linedefect_zz_relaxed.lmp
+ ForceField         ffield_wsoal
+ Temperature        300
+ NBeamIteration     720
+ BeamFrequency      100
+ NBeamMDSteps       2000
+ RelaxMDSteps       1000
+ RelaxNPTSteps      50000
+ NBinsX             12
+ NBinsY             12
+ #FBMC               0.05 100.0 100
